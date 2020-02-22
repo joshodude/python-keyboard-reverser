@@ -1,5 +1,6 @@
 # python-keyboard-reverser
-It reverses the text based on the keyboard. 'a' will become `'`, `s` will become `;`, `d` will become `l`, etc. 
+It reverses the text based on the keyboard. `a` will become `'`, `s` will become `;`, `d` will become `l`, etc. 
+
 It does not support numbers or backslash at the moment.
 
 Requires PySimpleGUI.
