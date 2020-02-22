@@ -1,5 +1,5 @@
 # python-keyboard-reverser
-It reverses the input text. It does not support numbers or backslash at the moment.
+It reverses the text based on the keyboard. `a` will become `'`, `s` will become `;`, `d` will become `l`, etc. It does not support numbers or backslash at the moment.
 
 Requires PySimpleGUI.
 
@@ -16,3 +16,4 @@ Hit the reverse button.
 ### Things I need to do:
 
 - [ ] Add number support.
+- [ ] Add backslash support (if possible).
