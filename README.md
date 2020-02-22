@@ -15,4 +15,4 @@ Hit the reverse button.
 
 ### Things I need to do:
 
-- [] Add number support.
+- [ ] Add number support.
