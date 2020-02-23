@@ -1,7 +1,7 @@
 class Reverse:
     def __init__(self, input_str):
         self.__input_str = input_str
-        self.__alphabet = list("qwertyuiop[]asdfghjkl;'zxcvbnm,./" + 'QWERTYUIOP{}ASDFGHJKL:ZXCVBNM<>?')
+        self.__alphabet = list("qwertyuiop[]asdfghjkl;'zxcvbnm,./" + 'QWERTYUIOP{}ASDFGHJKL:"ZXCVBNM<>?')
         self.__reversed_alphabet = list("][poiuytrewq';lkjhgfdsa/.,mnbvcxz" + '}{POIUYTREWQ":LKJHGFDSA?><MNBVCXZ')
 
     def reverse_input(self):
@@ -15,3 +15,4 @@ class Reverse:
                     output = output.replace(self.__alphabet[index] + '_', self.__reversed_alphabet[index])
 
         return output.replace('_', '')
+
